@@ -5,6 +5,8 @@
 1. **Set your simulation parameters:**
 
    - Edit the `caseData.json` file to define the desired configuration for your simulation.
+   - It only accepts Reynolds of 3200 and 5000.
+   - You can either keep the computed simulations or discard them at the end of the simulation.
 
 2. **Run the simulation:**
 
@@ -53,3 +55,20 @@ While known bugs have been addressed, the program **might still crash** under ce
 
 - **Non-convergent cell size / timestep combination:**
   - Make sure your cell size and timestep are selected to ensure convergence and stability.
+
+---
+
+## Outputs
+
+The program automatically generates a folder with the following information:
+   - The evolution of the error with respect to the reference case.
+   - The evolution of the gradient norm.
+   - The evolution of the Smagorinsky constant.
+   - The final velocity map at y = 0.5.
+   - A map with all the run velocity profiles at y = 0.5 compared to the reference case.
+
+---
+
+## Disclaimer
+
+The code is still under construction and changes and improvements may happen. 
