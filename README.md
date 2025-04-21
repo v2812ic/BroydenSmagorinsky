@@ -50,8 +50,8 @@ The environment activates automatically while running the bash script.
 
 While known bugs have been addressed, the program **might still crash** under certain conditions:
 
-- **Smagorinsky constant > 0.2:**
-  - This can lead to instability. Increasing the number of cells typically resolves this.
+- **Smagorinsky constant > 2:**
+  - This can lead to instability. Increasing the number of cells typically resolves this. Also, this can occur if the first jacobian aproximation (the identity for the moment) does not resemble the actual jacobian. Therefore, changes to the initialization of the algorithm are expected to be implemented in the near future.
 
 - **Non-convergent cell size / timestep combination:**
   - Make sure your cell size and timestep are selected to ensure convergence and stability.
