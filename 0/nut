@@ -1,0 +1,30 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| OpenFOAM: The Open Source CFD Toolbox                                    |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       volScalarField;
+    location    "0";
+    object      nut;
+}
+
+dimensions      [0 2 -1 0 0 0 0];  // m²/s
+
+internalField   uniform 0;
+
+boundaryField
+{
+    walls
+    {
+        type            nutUSpaldingWallFunction; 
+        value           uniform 0;
+    }
+
+    lid
+    {
+        type            nutUSpaldingWallFunction;
+        value           uniform 0;
+    }
+}
