@@ -85,7 +85,7 @@ The program automatically generates a folder with the following information:
 
 #### Comparativa de perfiles
 ![Perfiles óptimos](images/perfilesConstantes_Optimas.svg)
-
+![Perfiles óptimos](images/perfilessim_20250421_141112_Ce1.048_Ck0.09306468437242184.svg)
 ---
 
 ## Disclaimer
