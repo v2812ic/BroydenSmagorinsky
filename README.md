@@ -69,21 +69,24 @@ The program automatically generates a folder with the following information:
 
 ---
 
-#### Error
-![Evolución del error](images/error_evolucion_con_componentes.svg)
 
-#### Gradient norm
-![Norma del gradiente](images/norma_gradiente.svg)
+#### Error evolution  
+<img src="images/error_evolucion_con_componentes.svg" width="600"/>
 
-#### Smagorinsky constant
-![Evolución de Cs](images/evolucion_Cs.svg)
+#### Gradient norm  
+<img src="images/norma_gradiente.svg" width="600"/>
 
-#### Velocity map
-![Magnitud de velocidades](images/Magnitud%20de%20velocidades.svg)
+#### Smagorinsky constant  
+<img src="images/evolucion_Cs.svg" width="600"/>
 
-#### Velocity profile comparison
-![Perfiles óptimos](images/perfilesConstantes_Optimas.svg) ![Perfiles óptimos](images/perfilessim_20250421_141112_Ce1.048_Ck0.09306468437242184.svg)
+#### Velocity magnitude at y = 0.5  
+<img src="images/Magnitud%20de%20velocidades.svg" width="600"/>
 
+#### Velocity profile comparison  
+<div style="display: flex; gap: 10px;">
+  <img src="images/perfilesConstantes_Optimas.svg" width="48%"/>
+  <img src="images/perfilessim_20250421_141112_Ce1.048_Ck0.09306468437242184.svg" width="48%"/>
+</div>
 ---
 
 ## Disclaimer
