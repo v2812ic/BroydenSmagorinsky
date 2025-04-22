@@ -69,6 +69,25 @@ The program automatically generates a folder with the following information:
 
 ---
 
+### Visualizaciones
+
+#### Error
+![Evolución del error](images/error_evolucion_con_componentes.svg)
+
+#### Norma del gradiente
+![Norma del gradiente](images/norma_gradiente.svg)
+
+#### Constante de Smagorinsky
+![Evolución de Cs](images/evolucion_Cs.svg)
+
+#### Mapa de velocidades
+![Magnitud de velocidades](images/Magnitud%20de%20velocidades.svg)
+
+#### Comparativa de perfiles
+![Perfiles óptimos](images/perfilesConstantes_Optimas.svg)
+
+---
+
 ## Disclaimer
 
 The code is still under construction and changes and improvements may happen. 
