@@ -81,6 +81,7 @@ The program automatically generates a folder with the following information:
 
 #### Velocity magnitude at y = 0.5  
 <img src="images/Magnitud%20de%20velocidades.svg" width="600"/>
+I need to update this picture. Both the speed and the distance are adimensionalized.  
 
 #### Velocity profile comparison  
 <div style="display: flex; gap: 10px;">
